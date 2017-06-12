@@ -1,0 +1,32 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "Blackjack - sample electron game",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "./node_modules/.bin/webpack-dev-server --progress --color",
+    "bundle": "./node_modules/.bin/webpack --progress --color",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild",
+    "pack": "build --dir --win --x64",
+    "dist": "build --win --x64"
+  },
+  "author": "Ron Todosichuk",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "electron": "^1.6.8",
+    "electron-builder": "^17.10.0",
+    "electron-devtools-installer": "^2.2.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
